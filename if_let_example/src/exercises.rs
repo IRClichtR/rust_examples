@@ -2,8 +2,6 @@ pub fn divide_result(a: i32, b: i32) -> Result<i32, String> {
     match b {
         // Retourner un result Ok contenant le résultat de la division 
         // si b n'est pas zéro
-        0 => Err(String::from("Division by zero")),
-        _ => Ok(a / b),
     }
 }
 
@@ -11,8 +9,6 @@ pub fn divide_option(a: i32, b: i32) -> Option<i32> {
     match b {
         // Retourner un option Some contenant le résultat de la division 
         // si b n'est pas zéro
-        0 => None,
-        _ => Some(a / b),
     }
 }
 
