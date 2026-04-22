@@ -1,4 +1,4 @@
-mod exercises;
+mod exercises; 
 
 // L'énumération Result est utilisée pour représenter le résultat d'une
 // opération qui peut réussir ou échouer.
@@ -76,7 +76,7 @@ fn main() {
     };
     dbg!(num);
     
-    // je peux raccourcir en utilisant let else 
+    // Je peux utiliser let ... else pour raccourcir l'ecriture de l'option 
     let Some(num) = some_num else {
         return 
         // je dois faire autre chose et non returner une valeur par défaut,
