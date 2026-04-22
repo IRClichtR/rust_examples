@@ -2,6 +2,8 @@ pub fn divide_result(a: i32, b: i32) -> Result<i32, String> {
     match b {
         // Retourner un result Ok contenant le résultat de la division 
         // si b n'est pas zéro
+        // Utilisez String::from("Division by zero") pour créer un message 
+        // d'erreur en cas de division par zéro
     }
 }
 
