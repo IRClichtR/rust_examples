@@ -1,3 +1,5 @@
+mod exercises;
+
 // L'énumération Result est utilisée pour représenter le résultat d'une
 // opération qui peut réussir ou échouer.
 // Resut {
