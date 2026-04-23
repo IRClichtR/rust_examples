@@ -1,3 +1,5 @@
+use crate::utils::profondeur;
+
 mod foo;
 mod bar;
 mod utils;
@@ -8,4 +10,5 @@ fn main() {
     foo::fait_ceci();
     let coucou = bar::Bar::coucou();
     let lower_bar = utils::lower_bar();
+    profondeur::je_suis_profond();
 }

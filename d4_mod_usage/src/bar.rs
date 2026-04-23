@@ -1,4 +1,5 @@
-use crate::foo;
+use super::foo;
+// use crate::foo;
 
 pub struct Bar;
 
