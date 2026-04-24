@@ -11,6 +11,8 @@ pub fn divide_option(a: i32, b: i32) -> Option<i32> {
     match b {
         // Retourner un option Some contenant le résultat de la division 
         // si b n'est pas zéro
+        
+        
     }
 }
 
